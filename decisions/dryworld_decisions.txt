@@ -1,0 +1,31 @@
+country_decisions = {
+    colonize_the_wastes = {
+        major = yes
+        potential = {
+            NOT = {
+                OR = {
+                    government = tribal
+                    horde_unity = 1
+                    tag = PRM
+                    tag = MOS
+                    tag = NOV
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        allow = {
+            treasury = 200
+            stability = 0
+        }
+        effect = {
+            add_treasury = -200
+            add_country_modifier = {
+                name = colonization_of_the_wastes
+                duration = -1
+
+            }
+        }
+    }
+}

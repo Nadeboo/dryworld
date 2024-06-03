@@ -1,0 +1,3 @@
+colonization_of_the_wastes = {
+	may_establish_frontier = yes
+}

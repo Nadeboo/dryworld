@@ -1,0 +1,13 @@
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = east_african
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0

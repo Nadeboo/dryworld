@@ -1,0 +1,7 @@
+#2426 - Yamal
+discovered_by = NOV
+1450.1.1 = { discovered_by = SIB }
+1581.1.1 = { discovered_by = RUS }
+religion = uninhabited_religion
+is_city = no
+culture = uninhabited_culture

@@ -1,0 +1,4 @@
+#1782 - Central Siberia
+religion = uninhabited_religion
+is_city = no
+culture = uninhabited_culture
