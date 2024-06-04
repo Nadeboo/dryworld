@@ -9,6 +9,10 @@ country_decisions = {
                     tag = PRM
                     tag = MOS
                     tag = NOV
+                    dominant_religion = inti
+                    dominant_religion = animism 
+                    dominant_religion = totemism 
+                    dominant_religion = dreamtime
                 }
             }
         }

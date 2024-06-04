@@ -1,3 +1,6 @@
 colonization_of_the_wastes = {
 	may_establish_frontier = yes
+	colonists = 1
+	may_explore = yes 
+	auto_explore_adjacent_to_colony = yes
 }
