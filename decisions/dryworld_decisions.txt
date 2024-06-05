@@ -4,8 +4,6 @@ country_decisions = {
         potential = {
             NOT = {
                 OR = {
-                    government = tribal
-                    horde_unity = 1
                     tag = PRM
                     tag = MOS
                     tag = NOV
@@ -13,7 +11,10 @@ country_decisions = {
                     dominant_religion = animism 
                     dominant_religion = totemism 
                     dominant_religion = dreamtime
+                    government = tribal
+                    horde_unity = 1
                 }
+                has_country_modifier = colonization_of_the_wastes 
             }
         }
         ai_will_do = {
