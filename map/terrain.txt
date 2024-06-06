@@ -70,6 +70,20 @@ categories =  {
 		terrain_override = {		
 		}
 	}
+	salt_mountains = {
+		color = { 99 99 99 }
+
+		sound_type = desert
+
+		defence = 3
+		movement_cost = 10
+		supply_limit = -15		
+		local_development_cost = 10
+		nation_designer_cost_multiplier = 0.2		
+		
+		terrain_override = {		
+		}
+	}
 
 	farmlands = {
 		color = { 179 255 64 }
@@ -860,6 +874,7 @@ terrain = {
 	
 	terrain_21			= { type = farmlands		color = { 	21	 } }
 	salt_wastes 		= { type = salt_wastes		color = {	100  } }	
+	salt_mountains 		= { type = salt_mountains	color = {	75	 } }
 }
 
 ##################################################################

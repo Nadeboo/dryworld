@@ -11,3 +11,4 @@ discovered_by = ottoman
 discovered_by = nomad_group
 religion = uninhabited_religion
 is_city = no
+culture = uninhabited_culture
