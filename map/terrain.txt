@@ -874,7 +874,7 @@ terrain = {
 	
 	terrain_21			= { type = farmlands		color = { 	21	 } }
 	salt_wastes 		= { type = salt_wastes		color = {	100  } }	
-	salt_mountains 		= { type = salt_mountains	color = {	75	 } }
+	salt_mountains 		= { type = salt_mountains	color = {	99	 } }
 }
 
 ##################################################################
