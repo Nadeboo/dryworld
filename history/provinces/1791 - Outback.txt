@@ -1,2 +1,4 @@
-
 discovered_by = aboriginal_tech
+culture = uninhabited_culture
+religion = uninhabited_religion
+is_city = no

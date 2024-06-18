@@ -1,55 +1,43 @@
 #1102 - Mauritius
-
 capital = "Mauritius"
 trade_goods = unknown
-hre = no
-base_tax = 5 
+base_tax = 5
 base_production = 5
 base_manpower = 1
 native_size = 0
 native_ferocity = 0
 native_hostileness = 0
-
-
-
-
 1505.1.1 = { discovered_by = POR }
-
-1638.1.1 = {
-	owner = NED
+1638.1.1 = { 
 	controller = NED
 	culture = dutch
-	religion = reformed
-	is_city = yes
-	trade_goods = sugar
-} # Dutch colony
+	religion = Reformed
+	city = yes
+	trade_goods = Sugar
+}
 1700.1.1 = { add_core = NED }
-1710.1.1 = {
-	is_city = no
-	native_size = 5
-	native_ferocity = 1
-	native_hostileness = 0
+1710.1.1 = { 
+	city = no
 	culture = madagascan
-	religion = animism
-	trade_goods = unknown
+	religion = Animism
+	trade_goods = Unknown
 	owner = ---
 	controller = ---
-	remove_core = NED
-} # The island is abandoned
-1735.6.4 = {
-	owner = FRA
+}
+1735.6.4 = { 
 	controller = FRA
 	culture = cosmopolitan_french
-	religion = catholic
-	is_city = yes
-	trade_goods = sugar
-} # French colony
+	religion = Catholic
+	city = yes
+	trade_goods = Sugar
+}
 1750.1.1 = { add_core = FRA }
-1810.12.3 = { controller = GBR } # Under British control
-1814.4.11 = {
-	owner = GBR
+1810.12.3 = { controller = GBR }
+1814.4.11 = { 
 	add_core = GBR
 	culture = english
-	religion = protestant
-	remove_core = FRA
-} # Actually confirmed in the Treaty of Paris
+	religion = Protestant
+}
+culture = uninhabited_culture
+religion = uninhabited_religion
+is_city = no

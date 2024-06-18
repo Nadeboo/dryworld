@@ -1,14 +1,12 @@
 discovered_by = north_american
-
-
-
- # Vitus Bering
-
-1784.1.1 = { discovered_by = RUS } # Vitus Bering
-hre = no
-base_tax = 1 
+# Vitus Bering
+1784.1.1 = { discovered_by = RUS }
+base_tax = 1
 base_production = 1
 base_manpower = 1
 native_size = 0
 native_ferocity = 0
 native_hostileness = 0
+culture = uninhabited_culture
+religion = uninhabited_religion
+is_city = no
