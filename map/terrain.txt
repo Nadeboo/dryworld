@@ -61,7 +61,8 @@ categories =  {
 
 		sound_type = desert
 
-		defence = 0
+		defence = 1
+		defensiveness = 0.5
 		movement_cost = 5
 		supply_limit = -2		
 		local_development_cost = 5
@@ -76,6 +77,7 @@ categories =  {
 		sound_type = desert
 
 		defence = 3
+		defensiveness = 1 
 		movement_cost = 10
 		supply_limit = -5		
 		local_development_cost = 10
