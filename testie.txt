@@ -1,0 +1,14 @@
+log = "======"
+every_province = {
+  limit = {
+  region = north_atlantic_region  #province X is in NA
+  north_atlantic_region = {  #check the provinces in NA:
+    type = all  #check that this condition is true for all of them
+    PREV = {  #province X
+      development = PREV  #has equal or more development than this province
+    }
+  }
+}
+  }
+  log = "[This.GetName]"
+log = "==="

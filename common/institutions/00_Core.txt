@@ -534,7 +534,7 @@ renaissance = {
 #######################################
 # New World
 # 
-# Colonising is good.. mkay.-.
+# Colonising is bad.. mkay.-.
 #######################################
 new_world_i = {
 
@@ -624,55 +624,15 @@ new_world_i = {
 	}
 	
 	can_start = {
-		is_year = 1500
-		is_institution_enabled = renaissance
-		OR = {
-			continent = europe
-			continent = asia
-			continent = africa
+		region = north_atlantic_region  #province X is in NA
+		north_atlantic_region = {  #check the provinces in NA:
+		  type = all  #check that this condition is true for all of them
+		  PREV = {  #province X
+			development = PREV  #has equal or more development than this province
+		  }
 		}
-		is_island = no
-		is_state = yes
-		OR = {
-			province_has_center_of_trade_of_level = 1
-			development = 12
-			is_capital = yes
-		}
-		is_in_capital_area = yes
-		owner = { 
-			has_any_exploration_idea = yes
-			#at least one province colonised or colonising, or have a subject colony
-			OR = {
-				any_owned_province = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = new_world
-					}
-				}
-				any_subject_country = {
-					OR = {
-						is_subject_of_type = colony
-						is_subject_of_type = crown_colony
-						is_subject_of_type = private_enterprise
-						is_subject_of_type = self_governing_colony
-					}
-					capital_scope = {
-						OR = {
-							continent = north_america
-							continent = south_america
-							continent = new_world
-						}
-					}
-				}
-			}
-			OR = {
-				north_america = { has_discovered = PREV }
-				south_america = { has_discovered = PREV }
-				new_world = { has_discovered = PREV }
-			}
-		}
-	}
+	  }
+
 	start_chance = 5		#in 100 for when a province can_start
 	
 	
