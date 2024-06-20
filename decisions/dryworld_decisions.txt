@@ -7,16 +7,13 @@ country_decisions = {
                     tag = PRM
                     tag = MOS
                     tag = NOV
-                    dominant_religion = inti
-                    dominant_religion = animism 
-                    dominant_religion = totemism 
-                    dominant_religion = dreamtime
-                    government = tribal
+                    religion = animism
+                    religion = totemism 
                     horde_unity = 1
+                    has_country_modifier = colonization_of_the_wastes 
                 }
-                has_country_modifier = colonization_of_the_wastes 
             }
-        }
+    }
         ai_will_do = {
             factor = 1
         }
