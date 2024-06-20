@@ -1,5 +1,5 @@
 discovered_by = north_american
 1784.1.1 = { discovered_by = RUS }
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 is_city = no

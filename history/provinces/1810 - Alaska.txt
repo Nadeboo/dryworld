@@ -1,8 +1,8 @@
 discovered_by = north_american
 1741.1.1 = { discovered_by = RUS }
 1778.1.1 = { discovered_by = GBR }
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 is_city = no
 base_tax = 1
 base_manpower = 1

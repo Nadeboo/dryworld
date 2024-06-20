@@ -14,6 +14,6 @@ discovered_by = SOL
 discovered_by = NVK
 discovered_by = NHX
 1643.1.1 = { discovered_by = RUS }
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+

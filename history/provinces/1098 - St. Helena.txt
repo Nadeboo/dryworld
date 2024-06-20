@@ -25,6 +25,6 @@ base_manpower = 1
 	controller = GBR
 	add_core = GBR
 }
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 is_city = no

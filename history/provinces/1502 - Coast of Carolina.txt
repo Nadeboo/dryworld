@@ -9,6 +9,6 @@ discovered_by = CRE
 discovered_by = CHE
 1521.1.1 = { discovered_by = SPA }
 1526.1.1 = { discovered_by = FRA }
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+

@@ -10352,17 +10352,3 @@ lost_cultures_group = {
 		}
 	}
 }
-
-uninhabited_culture_group = {
-	uninhabited_culture = {
-		male_names = {
-			Adam Acheim Alut Duran Mosi 
-		}
-		female_names = {
-			Eva Eve Merut Tal Vatan 
-		}
-		dynasty_names = {
-			"Of Gold" "Of Glory" "Of Old" "Of The Forest" "Of the Deep Things"
-		}	
-	}
-}

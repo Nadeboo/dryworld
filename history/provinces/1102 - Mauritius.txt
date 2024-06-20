@@ -38,6 +38,6 @@ native_hostileness = 0
 	culture = english
 	religion = Protestant
 }
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 is_city = no

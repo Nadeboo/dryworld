@@ -19,6 +19,6 @@ native_hostileness = 0
 1700.1.1 = { trade_goods = Sugar }
 1810.7.9 = { controller = GBR }
 1815.7.8 = { controller = FRA }
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 is_city = no

@@ -1,4 +1,4 @@
 #1781 - Western Siberia
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+

@@ -53,6 +53,6 @@ discovered_by = KMC
 discovered_by = NVK
 discovered_by = NHX
 1646.1.1 = { discovered_by = RUS }
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+

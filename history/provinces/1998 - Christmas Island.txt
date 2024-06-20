@@ -13,6 +13,6 @@ native_hostileness = 0
 1666.1.1 = { 
 	discovered_by = NED
 }
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 is_city = no

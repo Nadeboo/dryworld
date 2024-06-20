@@ -1,5 +1,5 @@
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 is_city = no
 base_tax = 1
 base_manpower = 1

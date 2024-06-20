@@ -7,6 +7,6 @@ native_hostileness = 0
 discovered_by = south_american
 1498.1.1 = { discovered_by = CAS }
 1516.1.23 = { discovered_by = SPA }
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+

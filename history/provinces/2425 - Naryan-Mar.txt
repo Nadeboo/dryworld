@@ -22,7 +22,7 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-religion = uninhabited_religion
+
 is_city = no
 base_tax = 1
 base_manpower = 1

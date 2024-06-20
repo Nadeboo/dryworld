@@ -1,6 +1,6 @@
 #368 - Madeira
-culture = uninhabited_culture
-religion = uninhabited_religion
+
+
 capital = "Funchal"
 trade_goods = unknown
 base_tax = 4

@@ -9,6 +9,6 @@ discovered_by = north_american
 1579.6.16 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
 1786.1.1 = { discovered_by = FRA }
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+

@@ -1,5 +1,5 @@
 #783 - Alacaluf
-culture = uninhabited_culture
+
 religion = animism
 capital = "Alacaluf"
 trade_goods = unknown

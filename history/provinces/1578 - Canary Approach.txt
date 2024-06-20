@@ -10,6 +10,6 @@ native_hostileness = 0
 	discovered_by = ottoman
 }
 1500.1.1 = { discovered_by = eastern }
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+

@@ -11,6 +11,6 @@ discovered_by = nomad_group
 discovered_by = east_african
 1480.1.1 = { discovered_by = TUR }
 1498.1.1 = { discovered_by = POR }
-religion = uninhabited_religion
+
 is_city = no
-culture = uninhabited_culture
+
