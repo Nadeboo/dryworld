@@ -1,11 +1,12 @@
 namespace = dryworld_events
 country_event = {
-    id = dryworld.1
+    id = dryworld_events.1
     title = dryworld.1.t
     desc = dryworld.1.d 
     picture = TRADEGOODS_eventPicture
     major = yes
     fire_only_once = yes
+    triggered_only = yes 
     trigger = {
         NOT = {
             ai = yes 
@@ -13,7 +14,8 @@ country_event = {
     }
     option = {
         name = dryworld.1.a
-        all_country = {
+        hidden_effect = {
+        every_country = {
             limit = {
                 OR = {
                     religion = animism
@@ -21,19 +23,22 @@ country_event = {
                     religion = inti 
                     religion = mesoamerican_religion 
                     religion = nahuatl 
-                    is_tribal = yes
+
+                }
                 }
                 add_country_modifier = {
-                    name = coloniation_allowed
+                    name = colonization_allowed
                     duration = -1
                     hidden = yes 
-                }
             }
         }
     }
+    custom_tooltip = ct.1
+    }
     option = {
         name = dryworld.1.b
-        all_country = {
+        hidden_effect = {
+        every_country = {
             limit = {
                 OR = {
                     religion = animism
@@ -41,17 +46,33 @@ country_event = {
                     religion = inti 
                     religion = mesoamerican_religion 
                     religion = nahuatl 
-                    is_tribal = yes
+                }
                 }
                 add_country_modifier = {
                     name = late_colonization
                     duration = -1
                     hidden = yes 
-                }
             }
         }
     }
+    custom_tooltip = ct.2
+    }
     option = {
         name = dryworld.1.c
+        hidden_effect = {
+        every_country = {
+            limit = {
+                OR = {
+                    religion = animism
+                    religion = totemism
+                    religion = inti 
+                    religion = mesoamerican_religion 
+                    religion = nahuatl 
+                }
+            }
+                add_prestige = 3
+        }
+    }
+    custom_tooltip = ct.3
     }
 }
