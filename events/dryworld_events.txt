@@ -106,6 +106,7 @@ country_event = {
     option = {
         #muscovy & co can colonize but hordes can't 
         name = dryworld.2.b
+        hidden_effect = {
         every_country = {
             limit = {
                 OR = {
@@ -120,9 +121,12 @@ country_event = {
             }
         }
     }
+    custom_tooltip = ct.2 
+    }
     option = {
         #hordes can colonize but muscovy & co can't
         name = dryworld.2.c 
+        hidden_effect = {
         every_country = {
             limit = {
                 horde_unity = 1
@@ -133,9 +137,12 @@ country_event = {
         }
         }
     }
+    custom_tooltip = ct.3 
+    }
     option = {
         #both can colonize
         name = dryworld.2.e 
+        hidden_effect = {
         every_country = {
             limit = {
                 OR = {
@@ -154,5 +161,7 @@ country_event = {
                 duration = -1 
             }
         }
+    }
+    custom_tooltip = ct.4 
     }
 }
