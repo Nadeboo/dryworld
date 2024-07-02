@@ -1,5 +1,6 @@
 namespace = dryworld_events
 country_event = {
+    #determine native american colonization
     id = dryworld_events.1
     title = dryworld.1.t
     desc = dryworld.1.d 
@@ -13,6 +14,7 @@ country_event = {
         }
     }
     option = {
+        #allow native american early colonization
         name = dryworld.1.a
         hidden_effect = {
         every_country = {
@@ -33,9 +35,13 @@ country_event = {
             }
         }
     }
+    country_event = {
+        id = dryworld_events.2 
+    }
     custom_tooltip = ct.1
     }
     option = {
+        #native americans can colonize after 1520
         name = dryworld.1.b
         hidden_effect = {
         every_country = {
@@ -54,10 +60,14 @@ country_event = {
                     hidden = yes 
             }
         }
+    country_event = {
+        id = dryworld_events.2 
+    }
     }
     custom_tooltip = ct.2
     }
     option = {
+        #native americans can never colonize
         name = dryworld.1.c
         hidden_effect = {
         every_country = {
@@ -72,7 +82,77 @@ country_event = {
             }
                 add_prestige = 3
         }
+    country_event = {
+        id = dryworld_events.2 
+    }
     }
     custom_tooltip = ct.3
+    }
+}
+country_event = {
+    #determine muscovy & horde colonization
+    id = dryworld_events.2
+    title = dryworld.2.t
+    desc = dryworld.2.d 
+    picture = TRADEGOODS_eventPicture
+    major = yes
+    fire_only_once = yes
+    triggered_only = yes
+    option = {
+        #neither can colonize
+        name = dryworld.2.a
+        custom_tooltip = ct.1 
+    }
+    option = {
+        #muscovy & co can colonize but hordes can't 
+        name = dryworld.2.b
+        every_country = {
+            limit = {
+                OR = {
+                    tag = MOS
+                    tag = PRM
+                    tag = NOV 
+                }
+            }
+            add_country_modifier = {
+                name = russian_early_colonization 
+                duration = -1
+            }
+        }
+    }
+    option = {
+        #hordes can colonize but muscovy & co can't
+        name = dryworld.2.c 
+        every_country = {
+            limit = {
+                horde_unity = 1
+            }
+        add_country_modifier = {
+            name = horde_colonization
+            duration = -1
+        }
+        }
+    }
+    option = {
+        #both can colonize
+        name = dryworld.2.e 
+        every_country = {
+            limit = {
+                OR = {
+                    horde_unity = 1
+                    tag = MOS
+                    tag = PRM
+                    tag = NOV 
+                }
+            }
+            add_country_modifier = {
+                name = horde_colonization
+                duration = -1 
+            }
+            add_country_modifier = {
+                name = russian_early_colonization
+                duration = -1 
+            }
+        }
     }
 }

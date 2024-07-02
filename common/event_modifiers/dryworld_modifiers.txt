@@ -7,3 +7,5 @@ colonization_of_the_wastes = {
 }
 colonization_allowed = {}
 late_colonization = {}
+russian_early_colonization = {}
+horde_colonization = {}
