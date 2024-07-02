@@ -1,0 +1,57 @@
+namespace = dryworld_events
+country_event = {
+    id = dryworld.1
+    title = dryworld.1.t
+    desc = dryworld.1.d 
+    picture = TRADEGOODS_eventPicture
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        NOT = {
+            ai = yes 
+        }
+    }
+    option = {
+        name = dryworld.1.a
+        all_country = {
+            limit = {
+                OR = {
+                    religion = animism
+                    religion = totemism
+                    religion = inti 
+                    religion = mesoamerican_religion 
+                    religion = nahuatl 
+                    is_tribal = yes
+                }
+                add_country_modifier = {
+                    name = coloniation_allowed
+                    duration = -1
+                    hidden = yes 
+                }
+            }
+        }
+    }
+    option = {
+        name = dryworld.1.b
+        all_country = {
+            limit = {
+                OR = {
+                    religion = animism
+                    religion = totemism
+                    religion = inti 
+                    religion = mesoamerican_religion 
+                    religion = nahuatl 
+                    is_tribal = yes
+                }
+                add_country_modifier = {
+                    name = late_colonization
+                    duration = -1
+                    hidden = yes 
+                }
+            }
+        }
+    }
+    option = {
+        name = dryworld.1.c
+    }
+}

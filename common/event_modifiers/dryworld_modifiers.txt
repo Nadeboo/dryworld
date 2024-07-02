@@ -5,3 +5,5 @@ colonization_of_the_wastes = {
 	auto_explore_adjacent_to_colony = yes
 	free_maintenance_on_expl_conq = yes
 }
+colonization_allowed = {}
+late_colonization = {}

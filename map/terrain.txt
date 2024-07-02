@@ -62,9 +62,9 @@ categories =  {
 		sound_type = desert
 
 		defence = 0
-		movement_cost = 5
+		movement_cost = 3
 		supply_limit = -2		
-		local_development_cost = 5
+		local_development_cost = 0.5
 		nation_designer_cost_multiplier = 0.2		
 		
 		terrain_override = {		
@@ -76,9 +76,9 @@ categories =  {
 		sound_type = desert
 
 		defence = 3
-		movement_cost = 10
+		movement_cost = 5
 		supply_limit = -5		
-		local_development_cost = 10
+		local_development_cost = 0.5
 		nation_designer_cost_multiplier = 0.2		
 		
 		terrain_override = {		

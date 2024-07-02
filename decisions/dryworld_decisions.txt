@@ -3,6 +3,20 @@ country_decisions = {
         major = yes
         potential = {
             OR = {
+                #if you have the modifier colonization_allowed and you're native you're allowed to colonize
+            AND = {
+                has_country_modifier = colonization_allowed  
+                OR = {
+                    religion = animism
+                    religion = totemism
+                    religion = inti 
+                    religion = mesoamerican_religion 
+                    religion = nahuatl 
+                }
+                NOT = {
+                    has_country_modifier = colonization_of_the_wastes 
+                }
+            }
                 AND = {
             NOT = {
                 OR = {
@@ -10,7 +24,7 @@ country_decisions = {
                     #not one of muscovy, perm or novgorod (to prevent them from prematurely colonizing siberia)
                     #your religion isn't animism totemism nahuatl or maya (called mesoamerican in the game files
                     #(to prevent natives from prematurely filling up the americas)
-                    #you aren't a horde, you aren't tribal, and you haven't taken the decision before
+                    #you aren't a horde, and you haven't taken the decision before
                     tag = PRM
                     tag = MOS
                     tag = NOV
@@ -21,7 +35,6 @@ country_decisions = {
                     religion = nahuatl 
                     horde_unity = 1
                     has_country_modifier = colonization_of_the_wastes 
-                    is_tribal = yes 
                 }
             }
         }
@@ -29,14 +42,14 @@ country_decisions = {
                 #if the year is 1520 or later all previous requirements disappear
                 #except for muscovy novgorod and perm not being able to take it
                 #and hordes not being able to take it
-                is_year = 1520 
+                is_year = 1520
+                has_country_modifier = late_colonization 
                 OR = {
                     religion = animism
                     religion = totemism
                     religion = inti 
                     religion = mesoamerican_religion 
                     religion = nahuatl 
-                    is_tribal = yes
                 }
                 NOT = {
                     has_country_modifier = colonization_of_the_wastes 
